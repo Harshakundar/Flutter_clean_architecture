@@ -31,7 +31,7 @@ lib/
 │── view/ #page
 │── main.dart # App entry point
 
-
+```
 ---
 
 ## 📦 Dependencies
@@ -57,7 +57,9 @@ dev_dependencies:
   build_runner:
   json_serializable:
 
-⚙️ Getting Started
+```
+##⚙️ Getting Started
+```yaml
 1️⃣ Clone the repository
  git clone https://github.com/your-username/flutter_bloc_cleaning_coding.git 
  cd flutter_bloc_cleaning_coding 
