@@ -19,6 +19,7 @@ This project demonstrates best practices for structuring Flutter apps for mainta
 ---
 
 ## 📂 Project Structure
+```yaml
 lib/
 │── bloc/ # BLoC state management
 │── config/ # App configurations (theme, routes, constants)
@@ -56,13 +57,13 @@ dev_dependencies:
   build_runner:
   json_serializable:
 
-##⚙️ Getting Started
-##1️⃣ Clone the repository
+⚙️ Getting Started
+1️⃣ Clone the repository
  git clone https://github.com/your-username/flutter_bloc_cleaning_coding.git 
  cd flutter_bloc_cleaning_coding 
 
-##2️⃣ Install dependencies
+2️⃣ Install dependencies
   flutter pub get
 
-##3️⃣ Generate code (models, freezed, json serialization)
+3️⃣ Generate code (models, freezed, json serialization)
  flutter pub run build_runner build --delete-conflicting-outputs
